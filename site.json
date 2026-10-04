@@ -2,6 +2,8 @@
   "demo": true,
   "domain": "https://jdp-pro-elagage.fr",
   "name": "JDP Pro Élagage",
+  "logo": "/img/logo-jdp-elagage-pau.webp",
+  "previewUrl": "jdp-pro-elagage.maquette-farid.workers.dev",
   "phone": "07 59 67 86 56",
   "email": "entrepriseswhaou@gmail.com",
   "street": "99 Av. du Loup",
