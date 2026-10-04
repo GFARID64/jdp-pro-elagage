@@ -1,0 +1,189 @@
+{
+  "demo": true,
+  "domain": "https://jdp-pro-elagage.fr",
+  "name": "JDP Pro Élagage",
+  "phone": "07 59 67 86 56",
+  "email": "entrepriseswhaou@gmail.com",
+  "street": "99 Av. du Loup",
+  "zip": "64000",
+  "city": "Pau",
+  "since": 2018,
+  "rating": 4.9,
+  "reviews": 28,
+  "siret": "844 342 204 00022",
+  "hours": "24h/24 et 7j/7",
+  "formAction": "https://formspree.io/f/VOTRE_ID",
+  "sameAs": [
+    "https://share.google/uHw6jUXSw1kcwbmhI"
+  ],
+  "photos": [],
+  "home": {
+    "title": "Élagueur à Pau 24h/24 | Élagage, abattage | JDP Pro Élagage",
+    "desc": "Élagueur et paysagiste à Pau depuis 2018 : élagage, abattage, dessouchage, haies. Urgence 24h/24, devis sous 48 h. Noté 4,9/5 sur Google (28 avis).",
+    "h1": "Élagueur à Pau, 24h/24 et 7j/7",
+    "lead": "Élagage, abattage, grande hauteur et entretien de jardin à Pau et alentours. Un arbre dangereux ? On vient, on chiffre, on sécurise."
+  },
+  "why": [
+    [
+      "Là en urgence, de jour comme de nuit",
+      "Un arbre sur la clôture après une tempête ne peut pas attendre lundi. Appelez, on répond."
+    ],
+    [
+      "Un prix annoncé avant de grimper",
+      "Devis gratuit sous 48 h, clair, sans mauvaise surprise le jour du chantier."
+    ],
+    [
+      "Le bon geste pour chaque essence",
+      "On ne coupe pas un chêne comme un cyprès : taille adaptée, arbre préservé."
+    ],
+    [
+      "Un terrain rendu net",
+      "Branches, bois et déchets verts évacués : vous retrouvez un jardin propre."
+    ]
+  ],
+  "services": [
+    {
+      "slug": "elagage-pau",
+      "name": "Taille et élagage d'arbres",
+      "img": "/img/coupe-branche-pau.jpg",
+      "text": "Taille d'entretien, allègement de couronne, suppression du bois mort. Une coupe adaptée à chaque essence pour garder l'arbre sain et éloigner les branches des toitures et des câbles."
+    },
+    {
+      "slug": "abattage-arbre-pau",
+      "name": "Abattage et enlèvement d'arbres",
+      "img": "/img/coupe-arbres-pau.jpg",
+      "text": "Arbre mort, malade ou dangereux : abattage direct ou démontage par sections quand l'espace manque. Intervention d'urgence après tempête ou chute de branches."
+    },
+    {
+      "slug": "elagage-grande-hauteur-pau",
+      "name": "Élagage grande hauteur",
+      "img": "/img/nacelle-elagueur-pau.jpg",
+      "text": "Grands chênes, platanes et peupliers : travail en hauteur avec cordes et matériel adapté, là où l'accès est difficile. Chaque chantier est préparé avant de grimper."
+    },
+    {
+      "slug": "dessouchage-pau",
+      "name": "Rabotage de souches",
+      "img": "/img/taillage-haies-pau.jpg",
+      "text": "Souche gênante après un abattage : rabotage sous le niveau du sol pour replanter, engazonner ou aménager le terrain."
+    },
+    {
+      "slug": "taille-haie-pau",
+      "name": "Taille de haies et arbustes",
+      "img": "/img/taillage-haies-lourdes.jpg",
+      "text": "Taille de haies, arbustes et massifs, avec évacuation des déchets verts. Entretien régulier ou remise en forme d'une haie envahie."
+    },
+    {
+      "slug": "paysagiste-pau",
+      "name": "Paysagiste et entretien de jardin",
+      "img": "/img/taillage-arbres-pau.jpg",
+      "text": "Tonte de pelouse, entretien de jardins et d'espaces verts pour particuliers, avec évacuation des déchets verts."
+    },
+    {
+      "slug": "plantation-arbre-pau",
+      "name": "Plantation et transplantation d'arbres",
+      "img": "/img/grimpeur-elagage-pau.jpg",
+      "text": "Choix de l'essence, plantation et transplantation d'arbres adaptés au sol et au climat du Béarn."
+    }
+  ],
+  "cities": [
+    {
+      "name": "Billère",
+      "blurb": "Voisine directe de Pau, Billère mêle jardins de lotissements et grands arbres d'alignement : tailles d'entretien et abattages de sécurité y sont les demandes les plus courantes."
+    },
+    {
+      "name": "Lons",
+      "blurb": "À Lons, entre zones résidentielles et espaces verts, on intervient surtout pour des haies à reprendre, des arbres de jardin trop hauts et des dessouchages après travaux."
+    },
+    {
+      "name": "Jurançon",
+      "blurb": "Sur les coteaux de Jurançon, les terrains en pente demandent une organisation adaptée : élagage en hauteur, abattage par sections et évacuation soignée."
+    },
+    {
+      "name": "Lescar",
+      "blurb": "À Lescar, de nombreux jardins anciens abritent de grands arbres : élagage, mise en sécurité près des habitations et entretien régulier des espaces verts."
+    },
+    {
+      "name": "Idron",
+      "blurb": "À Idron, commune résidentielle proche de Pau, on taille et entretient arbres, haies et pelouses de particuliers, avec devis sous 48 h."
+    },
+    {
+      "name": "Gelos",
+      "blurb": "Aux portes de Pau, Gelos compte de grandes propriétés arborées : élagage grande hauteur, abattage d'arbres dangereux et entretien de jardins."
+    },
+    {
+      "name": "Morlaàs",
+      "blurb": "À Morlaàs, ancienne capitale du Béarn, jardins et grands sujets demandent une taille respectueuse et des interventions d'urgence après les coups de vent."
+    },
+    {
+      "name": "Serres-Castet",
+      "blurb": "À Serres-Castet, entre lotissements et terrains plus ruraux, on assure élagage, taille de haies et enlèvement d'arbres morts."
+    }
+  ],
+  "extended": [
+    "Tarbes",
+    "Lourdes",
+    "Nay",
+    "Oloron-Sainte-Marie",
+    "Orthez",
+    "Mont-de-Marsan",
+    "Auch"
+  ],
+  "faq": [
+    {
+      "q": "Intervenez-vous en urgence à Pau ?",
+      "a": "Oui, nous répondons 24h/24 et 7j/7 pour les arbres dangereux, branches tombées ou arbres couchés après une tempête. Appelez le 07 59 67 86 56."
+    },
+    {
+      "q": "Quel est le délai pour un devis ?",
+      "a": "Le devis est gratuit et envoyé sous 48 h. Une photo de l'arbre accélère l'estimation."
+    },
+    {
+      "q": "Faut-il une autorisation pour abattre un arbre à Pau ?",
+      "a": "Sur un terrain privé, en général non, mais certains arbres sont protégés par le plan local d'urbanisme ou situés en zone protégée. Nous vous aidons à vérifier avant d'intervenir."
+    },
+    {
+      "q": "Évacuez-vous les déchets verts ?",
+      "a": "Oui, branches et déchets verts peuvent être évacués après le chantier."
+    },
+    {
+      "q": "Quelles communes desservez-vous ?",
+      "a": "Pau et ses environs en priorité (Billère, Lons, Jurançon, Lescar, Idron, Gelos, Morlaàs, Serres-Castet), et selon le projet dans les Pyrénées-Atlantiques, les Hautes-Pyrénées, les Landes et le Gers."
+    }
+  ],
+  "heroImage": "/img/hero-elagage-pau.jpg",
+  "engagements": [
+    [
+      "Urgence 24h/24",
+      "Tempête, arbre couché, branche suspendue"
+    ],
+    [
+      "Devis sous 48 h",
+      "Gratuit, plus vite avec une photo"
+    ],
+    [
+      "Intervention rapide",
+      "On se déplace sans attendre"
+    ],
+    [
+      "Chantier évacué",
+      "Branches et déchets verts emportés"
+    ]
+  ],
+  "about": {
+    "title": "L'arbre, c'est notre métier",
+    "text": [
+      "Depuis 2018, JDP Pro Élagage taille, élague et abat les arbres de Pau et des communes voisines.",
+      "Un platane qui penche sur une toiture ne se traite pas comme une haie : il faut un plan, du matériel et de la méthode. On prépare le chantier, on sécurise la zone, puis on grimpe."
+    ]
+  },
+  "audiences": [
+    [
+      "Particuliers",
+      "Un arbre trop près de la maison, une haie qui déborde, une branche cassée par le vent : on passe, on chiffre, on vous dit ce qui presse et ce qui peut attendre."
+    ],
+    [
+      "Copropriétés et professionnels",
+      "Syndics, entreprises, gestionnaires de résidences : devis détaillé, chantier balisé, voisinage prévenu et site rendu net."
+    ]
+  ]
+}

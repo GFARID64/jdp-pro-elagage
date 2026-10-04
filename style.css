@@ -1,0 +1,61 @@
+:root{--bg:#eef2ea;--ink:#0d1b13;--dk:#0c2a1b;--g:#1d5a3a;--or:#ff8a1f;--mut:#41564a;--img:none}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:400 17px/1.6 Barlow,system-ui,sans-serif;color:var(--ink);background:var(--bg);padding-bottom:62px}
+a{color:inherit}
+h1,h2,h3,.tel,.st b,.rv b,.mq span,.eng b{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:700}
+.w{max-width:1100px;margin:0 auto;padding:0 20px}
+.hero{position:relative;display:flex;align-items:flex-end;min-height:76vh;padding:80px 0 44px;color:#fff;background:linear-gradient(180deg,rgba(8,30,19,.5),rgba(8,30,19,.92)),var(--img),radial-gradient(120% 90% at 85% 0,#1d5a3a,#0c2a1b);background-size:cover;background-position:center}
+.hero:before{content:"";position:absolute;left:10px;top:0;bottom:0;width:3px;background:repeating-linear-gradient(var(--or) 0 12px,transparent 12px 20px)}
+.eb{margin:0 0 10px;color:#bfe0c9;font-weight:600}
+h1{font-size:clamp(2.8rem,10vw,6rem);line-height:.95;margin:0 0 18px;max-width:14ch}
+.lead{max-width:54ch;font-size:1.15rem;color:#dcebe0;margin:0}
+.tel{display:block;width:fit-content;font-size:clamp(2.6rem,11vw,5.5rem);line-height:1;color:var(--or);text-decoration:none;margin:22px 0 8px}
+.sub{margin:0;color:#b9d3c1}
+.eng{background:var(--dk);color:#fff}.eng .w{display:grid;grid-template-columns:1fr 1fr}
+.eng .w>div{padding:20px 16px;border-top:3px solid var(--or)}.eng b{display:block;font-size:1.35rem}.eng p{margin:2px 0 0;color:#b9d3c1;font-size:.95rem}
+.mq{overflow:hidden;background:var(--or);color:var(--dk);padding:10px 0;white-space:nowrap}
+.mq div{display:inline-block;animation:m 40s linear infinite}.mq span{font-size:1.35rem;margin-right:34px}
+@keyframes m{to{transform:translateX(-50%)}}
+.s{padding:52px 0}
+h2{font-size:clamp(2rem,5vw,3rem);line-height:1;margin:0 0 20px}
+h3{font-size:1.5rem;line-height:1.1;margin:0 0 6px}
+.tx{max-width:62ch;margin:0 0 14px}
+.btn{display:inline-block;margin-top:8px;padding:13px 22px;background:var(--dk);color:#fff;font-weight:600;text-decoration:none}
+.ab{display:grid;gap:32px}
+.st{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--dk);color:#fff}
+.st div{padding:22px 18px}.st b{display:block;font-size:3rem;line-height:1;color:var(--or)}.st span{color:#b9d3c1}
+.g{list-style:none;margin:0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.g a{display:block;height:100%;background:#fff;text-decoration:none}
+.im{display:grid;place-items:center;height:140px;background:linear-gradient(135deg,var(--g),var(--dk));color:rgba(255,255,255,.28)}
+.im svg{width:64px}.im img{width:100%;height:140px;object-fit:cover}
+.g b{display:block;padding:14px 16px 2px;font:700 1.45rem/1.1 "Barlow Condensed",sans-serif}
+.tt{display:block;padding:0 16px 16px;color:var(--mut);font-size:.95rem}
+.g a:hover b{color:var(--g)}
+.aud{display:grid;gap:18px}.aud>div{padding:26px;background:var(--dk);color:#fff}.aud p{margin:0;color:#cfe3d5}
+.rv{background:var(--g);color:#fff;text-align:center}.rv b{display:block;font-size:4.5rem;line-height:1}.rv p{margin:4px 0 14px}.rv .btn{background:var(--or);color:var(--dk)}
+.why{display:grid;gap:0;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.why>div{padding:20px 20px 20px 0;border-top:2px solid var(--dk)}.why p{margin:0;color:var(--mut)}
+.c{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.c a{display:block;padding:8px 16px;background:var(--dk);color:#fff;text-decoration:none}
+.ph{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}.ph img{width:100%;height:230px;object-fit:cover}
+details{background:#fff;padding:14px 18px;margin-bottom:8px}summary{font-weight:600;cursor:pointer}details p{margin:10px 0 0;color:var(--mut)}
+#devis{background:var(--dk)}.f{max-width:560px;color:#fff}.f h2{margin-bottom:14px}
+.f label{display:block;margin-bottom:12px;font-weight:600}
+.f input,.f textarea{display:block;width:100%;margin-top:4px;padding:12px;border:0;font:inherit;color:var(--ink)}
+.f button{width:100%;padding:15px;border:0;background:var(--or);color:var(--dk);font:inherit;font-weight:700;cursor:pointer}
+footer{padding:28px 0;background:#071c11;color:#b3cbbb;font-size:.95rem}
+.bar{position:fixed;left:0;right:0;bottom:0;display:flex;z-index:9}
+.bar a{flex:1;padding:16px;text-align:center;font-weight:700;text-decoration:none;background:var(--or);color:var(--dk)}.bar .b2{background:#fff}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--or);outline-offset:2px}
+@media(min-width:760px){.bar{display:none}body{padding-bottom:0}.eng .w{grid-template-columns:repeat(4,1fr)}.ab{grid-template-columns:1.1fr 1fr;align-items:center}.aud{grid-template-columns:1fr 1fr}.hero:before{left:24px}}
+@media(prefers-reduced-motion:reduce){.mq div{animation:none}html{scroll-behavior:auto}}
+.top{position:sticky;top:0;z-index:20;background:var(--dk);color:#fff}
+.tw{display:flex;align-items:center;justify-content:space-between;gap:12px;height:64px;position:relative}
+.lg{display:flex;align-items:center;gap:10px;font:700 1.35rem "Barlow Condensed",sans-serif;text-decoration:none}
+.lg svg path:first-child{fill:var(--or)}.lg svg path:last-child{stroke:var(--dk)}
+.mb{display:grid;gap:5px;padding:12px;background:none;border:0;cursor:pointer}.mb i{display:block;width:26px;height:3px;background:#fff}
+#nv{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--dk);padding:8px 20px 20px;border-top:1px solid rgba(255,255,255,.15)}
+#nv.open{display:flex}
+#nv a{padding:14px 0;font-weight:600;font-size:1.1rem;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.12)}
+#nv .cta{margin-top:14px;padding:14px;text-align:center;background:var(--or);color:var(--dk);font-weight:700;border:0}
+@media(min-width:760px){.mb{display:none}#nv{display:flex;position:static;flex-direction:row;align-items:center;gap:28px;padding:0;border:0;background:none}#nv a{padding:6px 0;border-bottom:2px solid transparent;font-size:1rem}#nv a:hover{border-color:var(--or)}#nv .cta{margin:0;padding:10px 18px;border:0}#nv .cta:hover{background:#fff}}
